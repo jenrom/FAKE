@@ -29,11 +29,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy.Web", "Deploy.Web", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{909C4837-F32A-4CAE-952E-7DCB8AAF3C28}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4A02B2CD-BBE1-4E4F-A490-95C6CF5BF672}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\packages.config = .nuget\packages.config
-	EndProjectSection
-EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FakeLib", "src\app\FakeLib\FakeLib.fsproj", "{13D56521-772A-41DB-9772-1DA1A4AA8E3A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.FAKECore", "src\test\Test.FAKECore\Test.FAKECore.csproj", "{98944472-E50A-4771-969D-4C0349D085A4}"
