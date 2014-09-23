@@ -87,25 +87,13 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="Web.config" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot">
-      <Paket>True</Paket>
-    </Content>
-    <Content Include="fonts\glyphicons-halflings-regular.svg">
-      <Paket>True</Paket>
-    </Content>
-    <Content Include="fonts\glyphicons-halflings-regular.ttf">
-      <Paket>True</Paket>
-    </Content>
-    <Content Include="fonts\glyphicons-halflings-regular.woff">
-      <Paket>True</Paket>
-    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <None Include="paket.references" />
+    <None Include="packages.config" />
     <None Include="Views\admin\environment.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -139,7 +127,25 @@
     <Content Include="Scripts\app\Admin.Agent.js" />
     <Content Include="Scripts\app\Admin.Environment.js" />
     <Content Include="Scripts\app\Admin.User.js" />
+    <Content Include="Scripts\bootstrap.js">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\bootstrap.min.js">
+      <Paket>True</Paket>
+    </Content>
     <Content Include="Scripts\jquery-2.1.1-vsdoc.js">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\jquery-2.1.1.js">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\jquery-2.1.1.min.js">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\knockout-3.2.0.debug.js">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\knockout-3.2.0.js">
       <Paket>True</Paket>
     </Content>
     <Content Include="Scripts\extensions.js" />
@@ -147,12 +153,6 @@
     <Content Include="Scripts\jquery.iframe-transport.js" />
     <Content Include="Scripts\jquery.ui.widget.js" />
     <Content Include="Scripts\jquery.fileupload.js" />
-    <Content Include="Scripts\knockout-3.1.0.js">
-      <Paket>True</Paket>
-    </Content>
-    <Content Include="Scripts\knockout-3.1.0.debug.js">
-      <Paket>True</Paket>
-    </Content>
     <Content Include="Scripts\knockout.mapping-latest.js" />
     <Content Include="Scripts\knockout.mapping-latest.debug.js" />
     <None Include="Scripts\toastr.min.js.map" />
@@ -161,19 +161,7 @@
     <None Include="Scripts\jquery-2.1.1.min.map">
       <Paket>True</Paket>
     </None>
-    <Content Include="Scripts\jquery-2.1.1.min.js">
-      <Paket>True</Paket>
-    </Content>
-    <Content Include="Scripts\jquery-2.1.1.js">
-      <Paket>True</Paket>
-    </Content>
     <Content Include="Scripts\jquery-2.1.1.intellisense.js" />
-    <Content Include="Scripts\bootstrap.min.js">
-      <Paket>True</Paket>
-    </Content>
-    <Content Include="Scripts\bootstrap.js">
-      <Paket>True</Paket>
-    </Content>
     <None Include="content\toastr.scss" />
     <None Include="content\toastr.min.css" />
     <None Include="content\toastr.less" />
@@ -469,6 +457,18 @@
     <Content Include="Content\bootstrap.min.css">
       <Paket>True</Paket>
     </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.eot">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.svg">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.ttf">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff">
+      <Paket>True</Paket>
+    </Content>
     <Content Include="scripts\knockout.mapping-latest.debug.js">
       <Paket>True</Paket>
     </Content>
@@ -506,5 +506,4 @@
       <Paket>True</Paket>
     </Content>
   </ItemGroup>
-  <Import Project="$(SolutionDir)\.paket\paket.targets" />
 </Project>
